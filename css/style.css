@@ -1,0 +1,85 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.jumbotron {
+    background-image: url('../images/wot-masthead-dark.jpg');
+    background-size: cover;
+    padding-top: 0;
+}
+
+.jumbotron .topBar {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.navbar-collapse {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar-collapse a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-collapse a:hover {
+    color: #bdd537;
+}
+
+.navbar-collapse .btn {
+    background-color: #bdd537;
+    border: none;
+    width: 156px; 
+}
+
+.navbar-collapse .btn a {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-collapse .btn:hover {
+    color: white;
+    background-color: #cee64b;
+}
+
+.jumbotron .headline {
+    max-width: 800px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headline h1, p {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#small {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.headline h1 {
+    font-size: 152px;
+    margin: 0;
+}
+
+#bottom {
+/*    font-size: 18px;  need to change to a div around the paragraphs and span*/
+}
+
+.headline .bar {
+    display: inline-block;
+    background-color: white;
+    width: 10%;
+    height: 10px;
+}
+
