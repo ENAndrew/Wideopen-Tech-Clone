@@ -76,10 +76,46 @@ html, body {
 /*    font-size: 18px;  need to change to a div around the paragraphs and span*/
 }
 
-.headline .bar {
+#spanBar .bar {
     display: inline-block;
     background-color: white;
-    width: 10%;
+    width: 90px;
     height: 10px;
+}
+
+#spanBar {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#spanBar p {
+    font-size: 18px;
+    padding: 0 50px;
+}
+
+#headOrange {
+    color: #ff803a;
+}
+
+#headGreen {
+    color: #bdd537;
+}
+
+.lrnMrBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.lrnMrBtn .btn {
+    background-color: #bdd537;
+    border: none;
+    width: 156px; 
+}
+
+.lrnMrBtn .btn:hover {
+    color: white;
+    background-color: #cee64b; 
 }
 
