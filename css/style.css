@@ -158,3 +158,81 @@ html, body {
     color: #bdd537;
 }
 
+.iconBox {
+    position: relative;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+}
+
+.iconBox .col-md-4 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+
+.iconBox p {
+    color: #40666d;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 15px;
+}
+
+.iconBox a {
+    color: #bdd537;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.iconBox a:hover {
+    color: #23999d;
+    text-decoration: none;
+}
+
+.paraArrow, .paraLight, .paraPower {
+    height: 280px;
+}
+
+.callAction {
+    width: 150px;
+    margin-left: 28%;
+}
+
+#lightbulb {
+    object-fit: none;
+    object-position: -301px -100px;
+    width: 130px;
+    height: 160px;   
+}
+
+#upArrow {
+    object-fit: none;
+    object-position: -210px -100px;
+    width: 100px;
+    height: 160px;      
+}
+
+#power {
+    object-fit: none;
+    object-position: -97px -100px;
+    width: 130px;
+    height: 160px;     
+}
+
+.arrow {
+    object-fit: none;
+    object-position: -44px -295px;
+    width: 27px;
+    height: 30px;
+    margin: 20px 0; 
+}
+
+.iconBox .col:first-child {
+    border-right: 1px solid lightgrey;
+}
+
+.iconBox .col:last-child {
+    border-left: 1px solid lightgrey;
+}
+
