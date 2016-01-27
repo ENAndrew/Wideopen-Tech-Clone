@@ -73,10 +73,6 @@ html, body {
     margin: 0;
 }
 
-#bottom {
-/*    font-size: 18px;  need to change to a div around the paragraphs and span*/
-}
-
 #spanBar .bar {
     display: inline-block;
     background-color: white;
@@ -242,17 +238,14 @@ html, body {
 }
 
 .paragraphs {
-    max-width: 1170px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 15%;
 
 }
 
 .paraBox {
     background-color: white;
-/*    width: 450px;
-    margin: 10px 10px;
-    padding: 25px;*/
+    min-height: 110px;
+    margin-bottom: 20px;
 }
 
 .weHelp p, h2 {
@@ -277,12 +270,33 @@ html, body {
 
 .paraBox p {
     font-size: 24px;
-    padding: 0 40px;
+    padding: 40px 40px 0 40px;
+    margin-bottom: 0px;
 }
 
 p.smaller {
     font-size:  16px;
+    color: #858585;
+    padding: 0 40px 40px 40px;
 }
 
+.weHelp .btn {
+    background-color: #bdd537;
+    border: none;
+    width: 156px;
+    margin: 30px 0 50px 0;
+}
 
+.weHelp .btn:hover {
+    background-color: #cee64b;
+}
+
+.weHelp .btn a {
+   font-family: 'Lato', sans-serif;
+   color: white;
+}
+
+.weHelp .btn a:hover {
+   text-decoration: none;
+}
 
