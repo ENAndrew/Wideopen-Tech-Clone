@@ -300,3 +300,14 @@ p.smaller {
    text-decoration: none;
 }
 
+.companies {
+    text-align: center;
+    background-color: #bdd537;
+}
+
+.companies h2 {
+    color: white;
+    font-size: 42px;
+    padding-top: 20px;
+}
+
