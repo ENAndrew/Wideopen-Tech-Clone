@@ -239,7 +239,6 @@ html, body {
 
 .paragraphs {
     margin-left: 15%;
-
 }
 
 .paraBox {
@@ -311,3 +310,65 @@ p.smaller {
     padding-top: 20px;
 }
 
+#redGiant {
+    object-fit: none;
+    object-position: 0px 0px;
+    width: 245px;
+    height: 145px;     
+}
+
+#taylorSays {
+    object-fit: none;
+    object-position: -325px 0px;
+    width: 245px;
+    height: 145px;     
+}
+
+#smartSound {
+    object-fit: none;
+    object-position: -645px 0px;
+    width: 245px;
+    height: 145px;     
+}
+
+#toolFarm {
+    object-fit: none;
+    object-position: 0px -145px;
+    width: 245px;
+    height: 145px;     
+}
+
+#heelsCom {
+    object-fit: none;
+    object-position: -310px -145px;
+    width: 245px;
+    height: 145px;     
+}
+
+#digieffects {
+    object-fit: none;
+    object-position: -630px -145px;
+    width: 245px;
+    height: 145px;     
+}
+
+#dietDirect {
+    object-fit: none;
+    object-position: 0px -290px;
+    width: 245px;
+    height: 145px;     
+}
+
+#sirona {
+    object-fit: none;
+    object-position: -310px -290px;
+    width: 245px;
+    height: 145px;     
+}
+
+#justFabulous {
+    object-fit: none;
+    object-position: -630px -290px;
+    width: 245px;
+    height: 145px;     
+}
