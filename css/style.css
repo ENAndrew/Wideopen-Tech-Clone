@@ -301,6 +301,7 @@ p.smaller {
 
 .companies {
     text-align: center;
+    width: 100%;
     background-color: #bdd537;
 }
 
@@ -308,6 +309,16 @@ p.smaller {
     color: white;
     font-size: 42px;
     padding-top: 20px;
+}
+
+.companyBoxContainer {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #redGiant {
@@ -378,5 +389,6 @@ p.smaller {
 }
 
 .companyBox img:hover {
-    zoom: 1.25;
+    transform: scale(1.1);
 }
+
