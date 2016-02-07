@@ -392,3 +392,61 @@ p.smaller {
     transform: scale(1.1);
 }
 
+.contactLocations {
+    
+}
+
+.wilmington, .asheville {
+    height: 500px;
+    padding-top: 12%;
+}
+
+.wilmington {
+    background-image: url("../images/wilmington.jpg");
+    background-size: cover !important;
+}
+
+.asheville {
+    background-image: url("../images/asheville.jpg");
+    background-size: cover;
+}
+
+.wilmInfo, .asheInfo {
+    background-color: rgba(40, 40, 40, 0.7);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.contactLink {
+    padding: 30px;
+}
+
+.contactLink p {
+    text-align: left;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.pLink:hover {
+    text-decoration: none;
+}
+
+.green {
+    font-family: 'Helvetica', sans-serif;
+    color: #bdd537;
+    font-size: 40px;
+    line-height: 0.5;
+}
+
+.contactLink a {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
